@@ -7,8 +7,9 @@ def get_input_data(message):
             print('Please enter a numeric value')
 
 
-#from num2words import num2words
-#print(num2words(321, to = 'cardinal', lang= 'uk'))
+# 1st method:
+# from num2words import num2words
+# print(num2words(321, to = 'cardinal', lang= 'uk'))
 
 '''
     cardinal (default)

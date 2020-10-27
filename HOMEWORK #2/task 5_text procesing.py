@@ -11,7 +11,8 @@ print(pasta.count('quis')) # 2 times
 print(pasta.count(' ')) # 112 times
 characters = len(pasta) - pasta.count(' ')
 print(characters) # 650 chacarters excluding spaces
-short_pasta = pasta[:100] + '...' # HOW TO GET RID OF 'to' IN THE END???
+short_pasta = pasta[:100] + '...' 
+# HOW TO GET RID OF 'to' IN THE END???
 print(short_pasta)
 
 import textwrap

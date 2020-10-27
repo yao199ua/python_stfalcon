@@ -1,5 +1,5 @@
 # 3. Even & Odd numbers output
-check_numbers = [(range(5,16))]
+check_numbers = (range(5,16))
 even_numbers = []
 odd_numbers = []
 
@@ -12,9 +12,9 @@ list(check_numbers)
 
 for num in check_numbers:
     if num % 2 == 0:            #TypeError: unsupported operand type(s) for %: 'range' and 'int'
-        even_numbers.append()
+        even_numbers.append(num)
     else:
-        odd_numbers.append()
+        odd_numbers.append(num)
 
 print(even_numbers)
 print(odd_numbers)
